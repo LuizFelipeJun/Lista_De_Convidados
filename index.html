@@ -12,11 +12,40 @@
       </h1>
       <div>
          <span>
-            Primeiro Convidado🥳
+            Convidados🥳
          </span>
          <input type="text" placeholder="nome do convidado" id="convidado1">
       </div>
       <button onclick="enviar()" id="btnEnviar"> Enviar </button>
       <div id="NomeConvidados"></div>
+         <span>
+            Lista De Convidados
+         </span>
+
+         <br>
+         
+         <button onclick="mostrar()" id="Mostrar">
+            mostrar
+         </button>
+         <div id="NomeConvidadoColuna">
+      </div>
+
+      <hr>
+
+      <button onclick="organiza()" id="buttonOrganizar">
+         Lista Orgranizada
+      </button>
+      <div id="listaOrganizada">
+
+      </div>
+      <hr>
+      <input type="text" id="pesquisa" placeholder="Pesquisar Nome">
+      <button onclick="pesquisarNome()">
+         Pesquisar
+      </button>
+      <div id="nomeConvidadoPesquisado">
+
+      </div>
+      <script src="main.js"></script>
    </body>
 </html>
